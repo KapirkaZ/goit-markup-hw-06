@@ -487,6 +487,53 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
+        <form class="form js-speaker-form">
+          <p class="modal-top">Oставьте свои данные, мы вам перезвоним</p>
+          <div class="form-field">
+            <label for="name" class="form-label">Имя</label>
+            <input class="form-input" type="text" name="name" id="name" />
+            <div class="icon-modal">
+              <svg class="icon" width="11" height="11">
+                <use
+                  href="./css/svg-icons/symbol-defs-close.svg#icon-close-black-18dp-2-1"
+                ></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="tel">Телефон</label>
+            <input type="tel" name="tel" id="tel" />
+            <span class="icon-modal"></span>
+          </div>
+
+          <div class="form-field">
+            <label for="mail">Почта</label>
+            <input type="email" name="mail" id="mail" />
+            <span class="icon-modal"> </span>
+          </div>
+
+          <div class="form-field">
+            <label for="">Комментарий</label>
+            <textarea
+              name="comment"
+              id="comment"
+              rows="10"
+              placeholder="Введите текст"
+            ></textarea>
+          </div>
+
+          <div class="policy-style">
+            <input type="checkbox" name="" id="policy" />
+            <label for="policy"
+              >Соглашаюсь с рассылкой и принимаю Условия договора</label
+            >
+          </div>
+
+          <div class="mod-but">
+            <button class="button-modal" type="submit">Отправить</button>
+          </div>
+        </form>
         <button class="button" data-modal-close>
           <svg class="icon" width="11" height="11">
             <use
