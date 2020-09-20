@@ -725,7 +725,7 @@ img {
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
-    line-height: 14px;
+    /* line-height: 14px; */
     letter-spacing: 0.01em;
     color: #757575;
 }
@@ -968,6 +968,7 @@ textarea {
 .form-field input {
  margin: 0;
   padding: 12px;
+  padding-left: 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
@@ -1003,10 +1004,20 @@ textarea {
 }
 
 /* стилизация checkbox */
-input[type="checkbox"] {
+
+.check-box {
+    position: absolute;
+    background-image: url(../css/svg-icons/Vector3.svg);
+    background-image: url(../css/svg-icons/Vector3-1.svg);
+    width: 16px;
+    height: 15px;
+    left: 30px;
+}
+
+/* input[type="checkbox"] {
   width: 16px;
   height: 15px;
-}
+} */
 
 .policy-style label {
   font-size: 14px;
