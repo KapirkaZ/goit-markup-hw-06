@@ -482,6 +482,36 @@
             </li>
           </ul>
         </div>
+
+        <!-- <div class="footer-social footer-form">
+          <p class="text">подпишитесь на рассылку</p>
+
+          
+            <div class="forms">
+              <div class="form-window">
+                <label for="mail" class="form-label"></label>
+                <input
+                  type="email"
+                  name="mail"
+                  id="mail"
+                  placeholder="E-mail"
+                  class="form-input"
+                />
+              </div>
+
+              <div class="form-button">
+                <button type="button" class="button">
+                  Подписаться
+                  <svg class="icon form-button-icon" width="24" height="24">
+                    <use
+                      href="./css/social-svg/symbol-defs.svg#icon-twitter"
+                    ></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div> -->
+        </div>
       </div>
     </footer>
 
@@ -492,25 +522,31 @@
           <div class="form-field">
             <label for="name" class="form-label">Имя</label>
             <input class="form-input" type="text" name="name" id="name" />
-            <div class="icon-modal">
-              <svg class="icon" width="11" height="11">
-                <use
-                  href="./css/svg-icons/symbol-defs-close.svg#icon-close-black-18dp-2-1"
-                ></use>
-              </svg>
-            </div>
+            <svg class="icon-modal" width="18" height="18">
+              <use
+                href="./css/svg-icons/symbol-defs-vect.svg#icon-Vector"
+              ></use>
+            </svg>
           </div>
 
           <div class="form-field">
             <label for="tel">Телефон</label>
             <input type="tel" name="tel" id="tel" />
-            <span class="icon-modal"></span>
+            <svg class="icon-modal" width="18" height="18">
+              <use
+                href="./css/svg-icons/symbol-defs-vect.svg#icon-Vector-1"
+              ></use>
+            </svg>
           </div>
 
           <div class="form-field">
             <label for="mail">Почта</label>
             <input type="email" name="mail" id="mail" />
-            <span class="icon-modal"> </span>
+            <svg class="icon-modal" width="18" height="18">
+              <use
+                href="./css/svg-icons/symbol-defs-vect.svg#icon-Vector-2"
+              ></use>
+            </svg>
           </div>
 
           <div class="form-field">
@@ -523,11 +559,13 @@
             ></textarea>
           </div>
 
-          <div class="policy-style">
+          <div class="policy-style" checkbox>
             <input type="checkbox" name="" id="policy" />
-            <label for="policy"
-              >Соглашаюсь с рассылкой и принимаю Условия договора</label
-            >
+            <label class="form+label" for="policy"
+              >Соглашаюсь с рассылкой и принимаю
+              <a class="modal-link" href="">Условия договора</a>
+              <span class="check-box"></span>
+            </label>
           </div>
 
           <div class="mod-but">
