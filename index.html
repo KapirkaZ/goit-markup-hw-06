@@ -488,21 +488,26 @@
           <div class="form-footer">
             <div class="form-window">
               <label for="mail" class="form-label-footer"></label>
-              <input type="email" name="mail" id="mail" placeholder="E-mail" class="form-input-footer">
+              <input
+                type="email"
+                name="mail"
+                id="mail"
+                placeholder="E-mail"
+                class="form-input-footer"
+              />
+            </div>
+
+            <div class="form-button">
+              <button type="button" class="sign-in-button">
+                Подписаться
+                <svg class="form-button-icon" width="24" height="24">
+                  <use
+                    href="./css/svg-icons/symbol-defs-vect.svg#icon-icon-send"
+                  ></use>
+                </svg>
+              </button>
             </div>
           </div>
-
-          <div class="form-button">
-            <button type="button" class="sign-in-button">Подписаться
-              <svg class="form-button-icon" width="24" height="24">
-                <use href="./css/svg-icons/symbol-defs-vect.svg#icon-icon-send"></use>
-              </svg>
-            </button>
-          </div>
-
-        </div>
-
-        
         </div>
       </div>
     </footer>
@@ -541,10 +546,10 @@
             </svg>
           </div>
 
-          <div class="form-field ">
-            <label for="" >Комментарий</label>
+          <div class="form-field">
+            <label for="">Комментарий</label>
             <textarea
-            class="modal-form-textarea form-input" 
+              class="modal-form-textarea form-input"
               name="comment"
               id="comment"
               rows="10"
