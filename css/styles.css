@@ -652,13 +652,15 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.1);
+  fill: #fff;
+  transition: fill 250ms var(--timing-function);
 }
 
 .social-list .icon {
   width: 20px;
   height: 20px;
-  fill: #afb1b8;
-  transition: fill 250ms var(--timing-function);
+  
 }
 
 .link .icons {
@@ -688,6 +690,7 @@ img {
 .footer-social .text {
   display: block;
   margin-bottom: 20px;
+  margin-top: 0;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--main-title-text-color);
@@ -1112,13 +1115,15 @@ textarea {
 
   /* футер подписка на рассылку */
   .footer-sighning {
-    margin-top: 12px;
+    /* margin-top: 12px; */
     display: block;
   }
+
 .subscription {
   text-transform: uppercase;
     color: var(--main-title-text-color);
     margin-bottom: 20px;
+    margin-top: 0;
 }
 
 
