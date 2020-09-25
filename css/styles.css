@@ -1048,6 +1048,7 @@ textarea {
   border-bottom: 1px solid var(--accent-color);
   display: inline-block;
   line-height: 0.85;
+  margin-left: 4px;
 }
 
 /* оформление кнопки в модалке */
