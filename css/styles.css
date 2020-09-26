@@ -880,6 +880,16 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   background-color: var(--main-bg-color);
+  cursor: pointer;
+}
+
+.button .icon {
+  margin-top: 5px;
+}
+
+.modal .button:focus,
+.modal .button:hover {
+  fill: var(--accent-color);
 }
 
 .backdrop.is-hidden {
@@ -1001,8 +1011,14 @@ textarea {
 /* стилизация checkbox */
 
 .checkbox {
+  /* position: absolute;
+  appearance: none; */
+
   position: absolute;
-  appearance: none;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
 
 .check-box {
@@ -1066,6 +1082,7 @@ textarea {
   min-width: 200;
   border: 1px solid transparent;
   margin-bottom: 40px;
+  cursor: pointer;
 }
 
 .modal .mod-but {
@@ -1088,7 +1105,7 @@ textarea {
 /* ховер форм */
 
 .form-input:focus + .icon-modal {
-  fill: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .form-input:focus {
